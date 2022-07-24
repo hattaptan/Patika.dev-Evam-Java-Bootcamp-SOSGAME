@@ -28,7 +28,7 @@ public class RunGame {
 		row = checkError.returnValueRowOrColoum;
 		
 		System.out.println();
-		System.out.print("  Coloum : ");
+		System.out.print("  Column : ");
 		int column = scanner.nextInt() - 1;//column value is -1 because of array length
 		checkError.checkRowColoum(column, table.length);// check is row from user in range or no
 		column = checkError.returnValueRowOrColoum;
